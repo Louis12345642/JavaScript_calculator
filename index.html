@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=3">
+
+  <title>Simple calculator</title>
+  
+  
+ 
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div>
+      <input class="" id="textarea" type="text"   />
+   </div>
+    <br/>
+    <div class="numbers">
+      <div class="numbs">
+ <button id="num1" onclick="calculator(1)"  value=1 class="min">1</button>
+ <button onclick="calculator(2)" type="button" placeholder="2" class="min">2</button>
+ <button onclick="calculator(3)" class="min">3</button>
+ <button onclick="calculator(4)" class="min">4</button>
+ <button onclick="calculator(5)" class="min">5</button>
+ <button onclick="calculator(6)" class="min">6</button>
+ <button onclick="calculator(7)" class="min">7</button>
+<button    onclick="calculator(8)"   class="min">8</button>
+<button  onclick="calculator(9)"  class="min">9</button>
+<button onclick="calculator(0)"  class="min">0</button>
+<button onclick="calculator('.')"  class="min">•</button>
+<button onclick="Delete()"  class="delt">C</button>
+
+ </div>
+
+
+
+
+
+
+      <div class="operators">
+        
+      <div class="numbtns"> <button onclick="calculator('+')"   class="add">+</button>
+        <button onclick="calculator('-')" class="min">-</button>
+        <button onclick="calculator('*')" class="multiply">x</button>
+        <button onclick="calculator('/')"   class="divide">÷</button>
+        <button onclick="evaluation()"  id="equal" class="percent">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="main.js"></script>
+</body>
+</html>
